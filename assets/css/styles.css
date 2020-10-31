@@ -171,10 +171,30 @@ footer{
         width: auto;
         margin: 0px;
     }
+    header{
+        background-color: #120458; 
+        height: 90px;   
+}
+
     .competences_logo ul  {
         text-decoration: none;
         padding: 0;
         flex-direction: column;          
+    }
+
+    .nickname{
+        font-size: 38px;
+        color: #7700a6;
+    }
+
+    .name ul li a {
+        text-decoration: none;
+        color: #ff00c0;
+    }
+
+    .competences h2{
+        padding-left: 20px;
+        color:  #ff124f;
     }
 
     .competences_logo ul li {
@@ -192,10 +212,18 @@ footer{
 
     .link ul{
         text-align: center;
+        margin-top: 0;
     }
     
     p {
         text-align: center;
         font-size: 18px;
+    }
+    footer{
+        background-color: #120458;
+        padding:2px;
+    }
+    .copyright, .warning{
+        color: white;
     }
 }
