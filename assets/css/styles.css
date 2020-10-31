@@ -112,7 +112,6 @@ span {
     margin-left: 8px; 
 }
 
-
 .competences_logo ul li img{
     width: 70px;
 }
@@ -121,21 +120,17 @@ span {
     display: flex;
 }
 
-
 figcaption{
     text-align: center;
 }
 
 .classique{   
     margin: 0 auto;
-    padding: 0;
-  
- 
+    padding: 0; 
 }
 
 .classique1{
-    margin: 0 auto;
-  
+    margin: 0 auto; 
     padding: 0;
 }
 
@@ -169,4 +164,37 @@ h4{
 footer{
     background-color: #b7c1de;
     padding:2px;
+}
+
+@media all and (max-width: 1024px){
+    body{
+        width: auto;
+    }
+    .competences_logo ul  {
+        text-decoration: none;
+        padding: 0;
+        flex-direction: column;          
+    }
+
+    .competences_logo ul li {
+        margin-top: 8px;
+    }
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #conteneur{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul{
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
 }
