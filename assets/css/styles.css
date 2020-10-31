@@ -187,6 +187,16 @@ footer{
         flex-direction: column;          
     }
 
+    .classique{
+        margin: 0; 
+        padding-left: 15px;
+        
+    }
+
+    .classique2{
+        margin-left: 25px;
+     
+    }
     .nickname{
         font-size: 38px;
         color: #7700a6;
@@ -209,6 +219,11 @@ footer{
 
     .competences_logo ul li {
         margin-top: 8px;
+        margin-left: 4px;
+    }
+
+    .competences_logo ul li img{
+        width: 50px;
     }
     section {
         flex-direction: column;
