@@ -61,6 +61,11 @@ section{
     padding-top: 15px;
 }
 
+.profil img {
+    width: 85px;
+    border-radius: 50%;
+}
+
 .name_nickname{
     margin-left: 20px;
     text-align: center;
@@ -230,5 +235,9 @@ footer{
     }
     .copyright, .warning{
         color: white;
+    }
+
+    .profil img {
+        width: 120px;
     }
 }
