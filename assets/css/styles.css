@@ -169,6 +169,7 @@ footer{
 @media all and (max-width: 1024px){
     body{
         width: auto;
+        margin: 0px;
     }
     .competences_logo ul  {
         text-decoration: none;
