@@ -228,6 +228,7 @@ footer{
     p {
         text-align: center;
         font-size: 18px;
+        padding: 15px;
     }
     footer{
         background-color: #041348;
