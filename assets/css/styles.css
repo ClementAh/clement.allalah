@@ -172,7 +172,7 @@ footer{
         margin: 0px;
     }
     header{
-        background-color: #120458; 
+        background-color: #041348; 
         height: 90px;   
 }
 
@@ -195,6 +195,11 @@ footer{
     .competences h2{
         padding-left: 20px;
         color:  #ff124f;
+    }
+
+    .parcours h2{
+        padding-left: 20px;
+        color:#ff124f;
     }
 
     .competences_logo ul li {
@@ -220,7 +225,7 @@ footer{
         font-size: 18px;
     }
     footer{
-        background-color: #120458;
+        background-color: #041348;
         padding:2px;
     }
     .copyright, .warning{
