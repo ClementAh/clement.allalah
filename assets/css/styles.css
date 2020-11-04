@@ -18,7 +18,7 @@ body{
 }
 
 header {
-    background-color: #b7c1de;    
+    background-color: #56158b;    
     display: flex;
     justify-content: space-between;
     padding: 1em 2em;
@@ -40,7 +40,8 @@ main {
 }
 
 h1 {
-    color: #0b468b;
+    color:
+        white;
 }
 
 figcaption {
@@ -52,7 +53,7 @@ h4 {
 }
 
 footer {
-    background-color: #b7c1de;
+    background-color: #56158b;
     padding: 1em;
     display: flex;
     justify-content: center;
@@ -129,7 +130,7 @@ footer {
     }
 
 .competences h2 {
-    color: #7700a6;
+    color: #3268a9;
 }
 
 .techno-container {
@@ -144,17 +145,17 @@ footer {
 }
 
 .parcours h2 {
-    color: #7700a6
+    color:  #3268a9
 }
 
 .parcours a {
     text-decoration: none;
-    color: #7700a6;
+    color: #c7216e;
     
 }
 
 .parcours a:hover {
-    color:  #00b3fe;
+    color: #3268a9;
 }
 
 .parcours ul li {
@@ -165,9 +166,13 @@ footer {
     text-decoration: none;
 }
 
+.copyright {
+    color: #e9b9bb;
+}
 .warning {
     font-style: italic;
     font-size: small;
+    color:#e9b9bb;
 }
 
 
