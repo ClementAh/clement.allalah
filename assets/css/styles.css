@@ -30,11 +30,7 @@ hr {
     margin: 1em 0;
 }
 
-@media (max-width: 550px) {
-    header {
-        justify-content: center;
-    }
-}
+
 
 main {
     flex: 1;
@@ -52,6 +48,7 @@ figcaption {
 h4 {
     text-align: center;
 }
+
 
 /* footer {
     background-color: #56158b;
@@ -78,6 +75,15 @@ h4 {
     padding: 1em 2em;
     flex-wrap: wrap;
 }
+
+
+@media (max-width: 550px) {
+    .wrap-header {
+        justify-content: center;
+    }
+}
+
+
 .container {
     position: relative;
     width: 100%;
