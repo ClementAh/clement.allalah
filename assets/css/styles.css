@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family:  Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: medium;
 
 }
 
