@@ -203,11 +203,11 @@ h4 {
     margin: 0.5em;
 }
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
     .contact-container {
         margin-bottom: 1em;
         margin-top: 1em;
-    }
+    } */
     .contact-icon {
         margin-top: 1em;
     }
