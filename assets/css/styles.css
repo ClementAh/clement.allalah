@@ -214,6 +214,24 @@ h4 {
 
 } */
 
+.hobbies-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.hobbie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    
+}
+
+.hobbie-container img {
+    width: 70px;
+    margin: 0.5em;
+}
 
 .copyright {
     color: #e9b9bb;
