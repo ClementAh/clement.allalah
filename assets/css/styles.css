@@ -203,32 +203,25 @@ h4 {
     margin: 0.5em;
 }
 
-/* @media (max-width: 420px) {
-    .contact-container {
-        margin-bottom: 1em;
-        margin-top: 1em;
-    } */
-    /* .contact-icon {
-        margin-top: 1em;
-    }
-
-} */
-
 .hobbies-container {
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around
 }
 
 .hobbie-container {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+.hobbie {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 1em;
-    
 }
 
-.hobbie-container img {
+.hobbie img {
     width: 70px;
     margin: 0.5em;
 }
