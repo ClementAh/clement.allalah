@@ -234,4 +234,7 @@ h4 {
     font-size: small;
     color:#e9b9bb;
 }
- 
+
+.icon-author a {
+  color:  #e9b9bb ;
+}
